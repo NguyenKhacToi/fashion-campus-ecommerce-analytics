@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Power BI temporary files
+*.pbi-tools
+~$*.pbix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
