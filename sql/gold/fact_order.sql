@@ -7,6 +7,7 @@ select
   customer_id,
   session_id,
   created_at as order_time,
+  date(created_at) as order_date,
   payment_method,
   payment_status,
   coalesce(promo_code,"No Promo") as promo_code,

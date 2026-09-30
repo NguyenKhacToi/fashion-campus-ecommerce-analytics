@@ -7,6 +7,7 @@ select
     session_id,
     event_name,
     event_time,
+    date(event_time) as event_date,
     traffic_source,
     product_id,
     quantity,
